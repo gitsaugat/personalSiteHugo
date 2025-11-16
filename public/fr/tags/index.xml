@@ -6,29 +6,8 @@
     <description>Recent content in Tags on Saugat Siwakoti</description>
     <generator>Hugo</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Tue, 16 Jan 2024 22:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jan 2024 10:00:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/fr/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Image</title>
-      <link>http://localhost:1313/fr/tags/image/</link>
-      <pubDate>Tue, 16 Jan 2024 22:30:00 +0800</pubDate>
-      <guid>http://localhost:1313/fr/tags/image/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rendu</title>
-      <link>http://localhost:1313/fr/tags/rendu/</link>
-      <pubDate>Tue, 16 Jan 2024 22:30:00 +0800</pubDate>
-      <guid>http://localhost:1313/fr/tags/rendu/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Test</title>
-      <link>http://localhost:1313/fr/tags/test/</link>
-      <pubDate>Tue, 16 Jan 2024 22:30:00 +0800</pubDate>
-      <guid>http://localhost:1313/fr/tags/test/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Markdown</title>
       <link>http://localhost:1313/fr/tags/markdown/</link>
