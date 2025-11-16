@@ -2,7 +2,9 @@ backend:
   name: github
   repo: gitsaugat/personalSiteHugo
   branch: main
-
+  auth_type: implicit
+  app_id : Ov23liGRK5kdXWmOz2ZU
+  
 media_folder: "/public/images"
 public_folder: "/images"
 
