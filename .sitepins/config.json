@@ -1,0 +1,15 @@
+{
+  "media": {
+    "root": "public",
+    "public": "public"
+  },
+  "content": {
+    "root": "content"
+  },
+  "code": {
+    "root": ""
+  },
+  "themeConfig": [],
+  "arrangement": [],
+  "showCommitModal": false
+}
