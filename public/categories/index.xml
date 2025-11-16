@@ -15,19 +15,5 @@
       <guid>http://localhost:1313/categories/image-rendering/</guid>
       <description></description>
     </item>
-    <item>
-      <title>Code-Highlighting</title>
-      <link>http://localhost:1313/categories/code-highlighting/</link>
-      <pubDate>Tue, 16 Jan 2024 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/categories/code-highlighting/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Test</title>
-      <link>http://localhost:1313/categories/test/</link>
-      <pubDate>Mon, 15 Jan 2024 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/categories/test/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
