@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   repo: gitsaugat/personalSiteHugo   # your GitHub repo
   branch: main                        # branch to edit
 
