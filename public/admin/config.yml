@@ -1,9 +1,10 @@
+
 backend:
   name: github
   repo: gitsaugat/personalSiteHugo   # your GitHub repo
   branch: main                        # branch to edit
 
-
+ 
 media_folder: "public/images"        # folder where uploaded images are stored
 public_folder: "/images"             # URL path for images on the live site
 
