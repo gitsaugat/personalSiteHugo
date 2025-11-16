@@ -1,14 +1,17 @@
 backend:
   name: github
-  repo: gitsaugat/personalSiteHugo
-  branch: main
-  auth_type: implicit
-  app_id : Ov23liGRK5kdXWmOz2ZU
-  
-media_folder: "/public/images"
-public_folder: "/images"
+  repo: gitsaugat/personalSiteHugo   # your GitHub repo
+  branch: main                        # branch to edit
+  auth_type: implicit                 # GitHub OAuth implicit flow
+  app_id: <YOUR_CLIENT_ID>            # replace with your GitHub OAuth App Client ID
+
+media_folder: "public/images"        # folder where uploaded images are stored
+public_folder: "/images"             # URL path for images on the live site
 
 collections:
+  # -------------------------
+  # BLOG POSTS
+  # -------------------------
   - name: "posts"
     label: "Blog Posts"
     folder: "content/posts"
@@ -20,3 +23,42 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Draft", name: "draft", widget: "boolean", default: false }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  # -------------------------
+  # PAGES (e.g., About, Contact)
+  # -------------------------
+  - name: "pages"
+    label: "Pages"
+    folder: "content/"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Layout", name: "layout", widget: "string" }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - label: "Links"
+        name: "links"
+        widget: "list"
+        fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "URL", name: "url", widget: "string" }
+          - { label: "Icon", name: "icon", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+  # -------------------------
+  # PROJECTS / LISTINGS
+  # -------------------------
+  - name: "projects"
+    label: "Projects"
+    folder: "content/projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Project Name", name: "name", widget: "string" }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "URL", name: "url", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
