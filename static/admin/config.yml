@@ -3,8 +3,8 @@ backend:
   repo: gitsaugat/personalSiteHugo
   branch: main
 
-media_folder: "public/images"
-public_folder: "public"
+media_folder: "/public/images"
+public_folder: "/public"
 
 collections:
   - name: "posts"
