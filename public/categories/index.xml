@@ -6,15 +6,8 @@
     <description>Recent content in Categories on Saugat Siwakoti</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 01 Jun 2025 10:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jan 2024 22:30:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Github</title>
-      <link>http://localhost:1313/categories/github/</link>
-      <pubDate>Sun, 01 Jun 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/categories/github/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Image-Rendering</title>
       <link>http://localhost:1313/categories/image-rendering/</link>

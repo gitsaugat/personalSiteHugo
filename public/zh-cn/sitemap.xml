@@ -42,49 +42,9 @@
   </url><url>
     <loc>http://localhost:1313/zh-cn/categories/github/</loc>
     <lastmod>2025-06-01T10:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/categories/github/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-JP"
-                href="http://localhost:1313/ja/categories/github/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-FR"
-                href="http://localhost:1313/fr/categories/github/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/categories/github/"
-                />
   </url><url>
     <loc>http://localhost:1313/zh-cn/posts/test-alert/</loc>
     <lastmod>2025-06-01T10:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/posts/test-alert/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-JP"
-                href="http://localhost:1313/ja/posts/test-alert/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-FR"
-                href="http://localhost:1313/fr/posts/test-alert/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/posts/test-alert/"
-                />
   </url><url>
     <loc>http://localhost:1313/zh-cn/tags/markdown/</loc>
     <lastmod>2025-06-01T10:00:00+08:00</lastmod>
