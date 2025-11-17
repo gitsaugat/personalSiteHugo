@@ -7,7 +7,9 @@ date: 2025-11-17
 lastmod: 2025-11-17
 author: Saugat Siwakoti
 draft: false
-categories: Tech
-Tags: AI
+categories:
+  - Tech
+Tags:
+  - AI
 ---
 [https://www.youtube.com/watch?v=5KmopXwjXik](https://www.youtube.com/watch?v=5KmopXwjXik)
