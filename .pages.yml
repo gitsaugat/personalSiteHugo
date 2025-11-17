@@ -31,6 +31,7 @@ content:
         required: false
         options: 
           values : ["Tech","AI","Finance","Coding","Economics"]
+          
       - label: "Tags"
         name: "Tags"
         type: select
@@ -53,20 +54,19 @@ content:
     label: "Pages"
     type: "collection"
     path: "content"
-    create: true
-    slug: "{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Layout", name: "layout", widget: "string" }
-      - { label: "Summary", name: "summary", widget: "text" }
-      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Title", name: "title", type: "string" }
+      - { label: "Layout", name: "layout", type: "string" }
+      - { label: "Summary", name: "summary", type: "text" }
+      - { label: "Date", name: "date", type: "date" }
       - label: "Links"
         name: "links"
-        widget: "list"
+        type: select
         fields:
-          - { label: "Name", name: "name", widget: "string" }
-          - { label: "URL", name: "url", widget: "string" }
-          - { label: "Icon", name: "icon", widget: "string" }
-          - { label: "Description", name: "description", widget: "text" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+          - { label: "Name", name: "name", type: "string" }
+          - { label: "URL", name: "url", type: "string" }
+          - { label: "Icon", name: "icon", type: "string" }
+          - { label: "Description", name: "description", type: "text" }
+
+      - { label: "Body", name: "body", type: "rich-text" }
+      - { label: "Draft", name: "draft", type: "boolean", default: false }
