@@ -15,16 +15,16 @@ content:
     slug: "{{slug}}"
     preview_path: "posts/{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string", required: true }
-      - { label: "Summary", name: "summary", widget: "text", required: false, hint: "Short summary displayed below title" }
-      - { label: "Description", name: "description", widget: "text", required: false, hint: "Meta description for SEO" }
+      - { label: "Title", name: "title", type: "string", required: true }
+      - { label: "Summary", name: "summary", type: "text", required: false, hint: "Short summary displayed below title" }
+      - { label: "Description", name: "description", type: "text", required: false, hint: "Meta description for SEO" }
       - label: "Cover Image"
         name: "cover"
         widget: "image"
         required: false
         hint: "Featured image displayed at the top of the post"
-      - { label: "Publish Date", name: "date", widget: "datetime", required: true }
-      - { label: "Last Modified", name: "lastmod", widget: "datetime", required: false }
+      - { label: "Publish Date", name: "date", type: "date", required: true }
+      - { label: "Last Modified", name: "lastmod", type: "date", required: false }
       - label: "Categories"
         name: "categories"
         widget: "list"
