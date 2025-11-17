@@ -22,7 +22,7 @@ content:
        
       - { label: "Publish Date", name: "date", type: "date", required: true }
       - { label: "Last Modified", name: "lastmod", type: "date", required: false }
-      - { label: "Author", name: "author", type: "string", required: false }
+      - { label: "Author", name: "author", type: "string", required: false ,default : "Saugat Siwakoti" }
       - { label: "Draft", name: "draft", type: "boolean", default: false }
 
       - label: "Categories"
