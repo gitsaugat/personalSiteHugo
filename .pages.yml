@@ -12,8 +12,8 @@ content:
     type: "collection"
     path: "content/posts"
     fields:
-      - { label: "Title", name: "title", type: text, required: true }
-      - { label: "Summary", name: "summary", type: text, required: false }
+      - { label: "Title", name: "title", type: string, required: true }
+      - { label: "Summary", name: "summary", type: string, required: false }
       - { label: "Description", name: "description", type: "text", required: false }
       - label: "Cover Image"
         name: "cover"
