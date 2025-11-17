@@ -28,9 +28,11 @@ content:
       - label: "Categories"
         name: "categories"
         type: select
+        
         required: false
         options: 
           values : ["Tech","AI","Finance","Coding","Economics"]
+          multiple: true
           
       - label: "Tags"
         name: "Tags"
