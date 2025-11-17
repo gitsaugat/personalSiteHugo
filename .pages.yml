@@ -22,26 +22,23 @@ content:
        
       - { label: "Publish Date", name: "date", type: "date", required: true }
       - { label: "Last Modified", name: "lastmod", type: "date", required: false }
+      - { label: "Author", name: "author", type: "string", required: false }
+      - { label: "Body", name: "body", type: rich-text, required: true }
+      - { label: "Draft", name: "draft", type: "boolean", default: false }
+
       - label: "Categories"
         name: "categories"
         type: select
         required: false
         options: 
           values : ["Tech","AI","Finance","Coding","Economics"]
-        
       - label: "Tags"
-        name: "tags"
-        widget: "list"
+        name: "Tags"
+        type: select
         required: false
-        allow_add: true
-        hint: "Post tags"
-        field:
-          label: "Tag"
-          name: "tag"
-          widget: "string"
-      - { label: "Author", name: "author", type: "string", required: false }
-      - { label: "Body", name: "body", type: rich-text, required: true }
-      - { label: "Draft", name: "draft", type: "boolean", default: false }
+        options: 
+          values : ["Tech","AI","Finance","Coding","Economics"
+          
 
   # -------------------------
   # PAGES (e.g., About, Contact)
