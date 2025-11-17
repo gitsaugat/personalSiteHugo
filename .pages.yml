@@ -62,11 +62,7 @@ content:
       - label: "Links"
         name: "links"
         type: select
-        fields:
-          - { label: "Name", name: "name", type: "string" }
-          - { label: "URL", name: "url", type: "string" }
-          - { label: "Icon", name: "icon", type: "string" }
-          - { label: "Description", name: "description", type: "text" }
+        
 
       - { label: "Body", name: "body", type: "rich-text" }
       - { label: "Draft", name: "draft", type: "boolean", default: false }
