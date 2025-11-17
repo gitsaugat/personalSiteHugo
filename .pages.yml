@@ -26,7 +26,8 @@ content:
         name: "categories"
         type: select
         required: false
-        options: {"Tech","AI","Finance","Coding","Economics"}
+        options: 
+          values : ["Tech","AI","Finance","Coding","Economics"]
         
       - label: "Tags"
         name: "tags"
