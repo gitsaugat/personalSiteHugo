@@ -46,7 +46,7 @@ content:
           name: "tag"
           widget: "string"
       - { label: "Author", name: "author", type: "string", required: false }
-      - { label: "Body", name: "body", type: "rich-text", required: true }
+      - { label: "Body", name: "body", type: rich-text, required: true }
       - { label: "Draft", name: "draft", type: "boolean", default: false }
 
   # -------------------------
