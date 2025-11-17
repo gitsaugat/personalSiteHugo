@@ -45,9 +45,9 @@ content:
           label: "Tag"
           name: "tag"
           widget: "string"
-      - { label: "Author", name: "author", widget: "string", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: true }
-      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Author", name: "author", type: "string", required: false }
+      - { label: "Body", name: "body", type: "rich-text", required: true }
+      - { label: "Draft", name: "draft", type: "boolean", default: false }
 
   # -------------------------
   # PAGES (e.g., About, Contact)
