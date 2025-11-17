@@ -58,11 +58,6 @@ content:
       - { label: "Title", name: "title", type: "string" }
       - { label: "Layout", name: "layout", type: "string" }
       - { label: "Summary", name: "summary", type: "text" }
-      - { label: "Date", name: "date", type: "date" }
-      - label: "Links"
-        name: "links"
-        type: select
-        
-
+      - { label: "Date", name: "date", type: "date"}
       - { label: "Body", name: "body", type: "rich-text" }
       - { label: "Draft", name: "draft", type: "boolean", default: false }
