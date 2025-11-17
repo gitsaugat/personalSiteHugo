@@ -24,14 +24,9 @@ content:
       - { label: "Last Modified", name: "lastmod", type: "date", required: false }
       - label: "Categories"
         name: "categories"
-        type: "list"
+        type: select
         required: false
-        allow_add: true
-        hint: "Post categories"
-        field:
-          label: "Category"
-          name: "category"
-          widget: "string"
+        
       - label: "Tags"
         name: "tags"
         widget: "list"
