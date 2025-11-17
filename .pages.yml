@@ -23,7 +23,6 @@ content:
       - { label: "Publish Date", name: "date", type: "date", required: true }
       - { label: "Last Modified", name: "lastmod", type: "date", required: false }
       - { label: "Author", name: "author", type: "string", required: false }
-      - { label: "Body", name: "body", type: rich-text, required: true }
       - { label: "Draft", name: "draft", type: "boolean", default: false }
 
       - label: "Categories"
@@ -37,7 +36,11 @@ content:
         type: select
         required: false
         options: 
-          values : ["Tech","AI","Finance","Coding","Economics"
+          values : ["Tech","AI","Finance","Coding","Economics"]
+
+        - { label: "Body", name: "body", type: rich-text, required: true }
+
+        
           
 
   # -------------------------
