@@ -1,0 +1,75 @@
+
+media: 
+  input: "public/images"        # folder where uploaded images are stored
+  output: "public/images"             # URL path for images on the live site
+
+content:
+  # -------------------------
+  # BLOG POSTS
+  # -------------------------
+  - name: "posts"
+    label: "Blog Posts"
+    type: "collection"
+    path: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    preview_path: "posts/{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - { label: "Summary", name: "summary", widget: "text", required: false, hint: "Short summary displayed below title" }
+      - { label: "Description", name: "description", widget: "text", required: false, hint: "Meta description for SEO" }
+      - label: "Cover Image"
+        name: "cover"
+        widget: "image"
+        required: false
+        hint: "Featured image displayed at the top of the post"
+      - { label: "Publish Date", name: "date", widget: "datetime", required: true }
+      - { label: "Last Modified", name: "lastmod", widget: "datetime", required: false }
+      - label: "Categories"
+        name: "categories"
+        widget: "list"
+        required: false
+        allow_add: true
+        hint: "Post categories"
+        field:
+          label: "Category"
+          name: "category"
+          widget: "string"
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        allow_add: true
+        hint: "Post tags"
+        field:
+          label: "Tag"
+          name: "tag"
+          widget: "string"
+      - { label: "Author", name: "author", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: true }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+
+  # -------------------------
+  # PAGES (e.g., About, Contact)
+  # -------------------------
+  - name: "pages"
+    label: "Pages"
+    type: "collection"
+    path: "content"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Layout", name: "layout", widget: "string" }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - label: "Links"
+        name: "links"
+        widget: "list"
+        fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "URL", name: "url", widget: "string" }
+          - { label: "Icon", name: "icon", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
