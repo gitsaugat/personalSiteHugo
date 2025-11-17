@@ -14,3 +14,15 @@ Tags:
   - AI
 ---
 [https://www.youtube.com/watch?v=5KmopXwjXik](https://www.youtube.com/watch?v=5KmopXwjXik)
+
+```
+DASDSADADSADSA
+
+DSA
+DADASDASDSADSADSADAS
+DSA
+DASD
+ASDA
+```
+
+![](public/images/Screenshot%202025-11-17%20at%2012.48.29%E2%80%AFPM.png)
