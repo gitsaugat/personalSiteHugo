@@ -16,7 +16,7 @@ content:
       - { label: "Summary", name: "summary", type: string, required: false }
       - { label: "Description", name: "description", type: "text", required: false }
       - label: "Cover Image"
-        name: "cover"
+        name: "coverImage"
         type: "image"
         required: false
        
