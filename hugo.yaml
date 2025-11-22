@@ -27,26 +27,26 @@ languages:
     languageCode: zh-CN
     languageName: "简体中文"
     weight: 2
-  ja:
-    languageCode: ja-JP
-    languageName: "日本語"
-    weight: 3
-  fr:
-    languageCode: fr-FR
-    languageName: "Français"
-    weight: 4
-  de:
-    languageCode: de-DE
-    languageName: "Deutsch"
-    weight: 5
-  es:
-    languageCode: es-ES
-    languageName: "Español"
-    weight: 6
-  ru:
-    languageCode: ru-RU
-    languageName: "Русский"
-    weight: 7
+  # ja:
+  #   languageCode: ja-JP
+  #   languageName: "日本語"
+  #   weight: 3
+  # fr:
+  #   languageCode: fr-FR
+  #   languageName: "Français"
+  #   weight: 4
+  # de:
+  #   languageCode: de-DE
+  #   languageName: "Deutsch"
+  #   weight: 5
+  # es:
+  #   languageCode: es-ES
+  #   languageName: "Español"
+  #   weight: 6
+  # ru:
+  #   languageCode: ru-RU
+  #   languageName: "Русский"
+  #   weight: 7
 
 # 分类法配置
 taxonomies:
@@ -165,7 +165,7 @@ params:
   dock: "float"
 
   # default color scheme
-  colorScheme: "default"
+  colorScheme: "dracula"
   themes:
     default:
       name: "Default"

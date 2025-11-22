@@ -22,5 +22,19 @@
       <guid>http://localhost:1313/about/</guid>
       <description>Learn about Hugo Narrow theme and its technology stack</description>
     </item>
+    <item>
+      <title>Archives</title>
+      <link>http://localhost:1313/archives/_index.fr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archives/_index.fr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>アーカイブ</title>
+      <link>http://localhost:1313/archives/_index.ja/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archives/_index.ja/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
