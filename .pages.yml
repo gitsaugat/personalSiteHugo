@@ -1,0 +1,66 @@
+
+media: 
+  input: "public/images"        # folder where uploaded images are stored
+  output: "public/images"             # URL path for images on the live site
+
+content:
+  # -------------------------
+  # BLOG POSTS
+  # -------------------------
+  - name: "posts"
+    label: "Blog Posts"
+    type: "collection"
+    path: "content/posts"
+    fields:
+      - { label: "Title", name: "title", type: string, required: true }
+      - { label: "Summary", name: "summary", type: string, required: false }
+      - { label: "Description", name: "description", type: "text", required: false }
+      - label: "Cover Image"
+        name: "coverImage"
+        type: "image"
+        required: false
+       
+      - { label: "Publish Date", name: "date", type: "date", required: true }
+      - { label: "Last Modified", name: "lastmod", type: "date", required: false }
+      - { label: "Author", name: "author", type: "string", required: false ,default : "Saugat Siwakoti" }
+      - { label: "Draft", name: "draft", type: "boolean", default: false }
+
+      - label: "Categories"
+        name: "categories"
+        type: select
+        
+        required: false
+        options: 
+          values : ["Tech","AI","Finance","Coding","Economics"]
+          multiple: true
+          
+      - label: "Tags"
+        name: "Tags"
+        type: select
+        required: false
+        options: 
+          values : ["Tech","AI","Finance","Coding","Economics"]
+          multiple: true
+
+      - label: "Body"
+        name: "body"
+        type: rich-text
+        required: true 
+
+        
+          
+
+  # -------------------------
+  # PAGES (e.g., About, Contact)
+  # -------------------------
+  - name: "pages"
+    label: "Pages"
+    type: "collection"
+    path: "content"
+    fields:
+      - { label: "Title", name: "title", type: "string" }
+      - { label: "Layout", name: "layout", type: "string" }
+      - { label: "Summary", name: "summary", type: "text" }
+      - { label: "Date", name: "date", type: "date"}
+      - { label: "Body", name: "body", type: "rich-text" }
+      - { label: "Draft", name: "draft", type: "boolean", default: false }
