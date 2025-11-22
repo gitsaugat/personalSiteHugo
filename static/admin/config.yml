@@ -17,12 +17,41 @@ collections:
     folder: "/content/posts"
     create: true
     slug: "{{slug}}"
+    preview_path: "posts/{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - { label: "Summary", name: "summary", widget: "text", required: false, hint: "Short summary displayed below title" }
+      - { label: "Description", name: "description", widget: "text", required: false, hint: "Meta description for SEO" }
+      - label: "Cover Image"
+        name: "cover"
+        widget: "image"
+        required: false
+        hint: "Featured image displayed at the top of the post"
+      - { label: "Publish Date", name: "date", widget: "datetime", required: true }
+      - { label: "Last Modified", name: "lastmod", widget: "datetime", required: false }
+      - label: "Categories"
+        name: "categories"
+        widget: "list"
+        required: false
+        allow_add: true
+        hint: "Post categories"
+        field:
+          label: "Category"
+          name: "category"
+          widget: "string"
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        allow_add: true
+        hint: "Post tags"
+        field:
+          label: "Tag"
+          name: "tag"
+          widget: "string"
+      - { label: "Author", name: "author", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: true }
       - { label: "Draft", name: "draft", widget: "boolean", default: false }
-      - { label: "Body", name: "body", widget: "markdown" }
 
   # -------------------------
   # PAGES (e.g., About, Contact)
@@ -46,19 +75,4 @@ collections:
           - { label: "Icon", name: "icon", widget: "string" }
           - { label: "Description", name: "description", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Draft", name: "draft", widget: "boolean", default: false }
-  # -------------------------
-  # PROJECTS / LISTINGS
-  # -------------------------
-  - name: "projects"
-    label: "Projects"
-    folder: "content/projects"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Project Name", name: "name", widget: "string" }
-      - { label: "Summary", name: "summary", widget: "text" }
-      - { label: "URL", name: "url", widget: "string" }
-      - { label: "Image", name: "image", widget: "image" }
-      - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Draft", name: "draft", widget: "boolean", default: false }

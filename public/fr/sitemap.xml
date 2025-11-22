@@ -2,8 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/fr/archives/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja-JP"
+                href="http://localhost:1313/ja/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-FR"
+                href="http://localhost:1313/fr/archives/"
+                />
+  </url><url>
     <loc>http://localhost:1313/fr/categories/</loc>
-    <lastmod>2024-01-15T10:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -40,27 +61,7 @@
                 href="http://localhost:1313/fr/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/tags/markdown/</loc>
-    <lastmod>2024-01-15T10:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/fr/posts/</loc>
-    <lastmod>2024-01-15T10:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-FR"
-                href="http://localhost:1313/fr/posts/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/fr/tags/prose/</loc>
-    <lastmod>2024-01-15T10:00:00+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/fr/</loc>
-    <lastmod>2024-01-15T10:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -97,11 +98,7 @@
                 href="http://localhost:1313/fr/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/tags/style/</loc>
-    <lastmod>2024-01-15T10:00:00+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/fr/tags/</loc>
-    <lastmod>2024-01-15T10:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -136,34 +133,6 @@
                 rel="alternate"
                 hreflang="fr-FR"
                 href="http://localhost:1313/fr/tags/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/fr/categories/test/</loc>
-    <lastmod>2024-01-15T10:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/fr/posts/test-blog-post/</loc>
-    <lastmod>2024-01-15T10:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/fr/archives/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-JP"
-                href="http://localhost:1313/ja/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-FR"
-                href="http://localhost:1313/fr/archives/"
                 />
   </url>
 </urlset>

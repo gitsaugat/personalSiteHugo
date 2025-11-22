@@ -15,8 +15,6 @@ links:
     url: "https://github.com"
     icon: "https://github.com/fluidicon.png"
     description: "The world's largest code hosting platform. "
-  
-
 ---
 
 ## About
