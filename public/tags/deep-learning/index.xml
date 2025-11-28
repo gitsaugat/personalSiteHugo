@@ -9,11 +9,11 @@
     <lastBuildDate>Fri, 21 Nov 2025 02:15:00 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Layers in neural network</title>
-      <link>http://localhost:1313/posts/layers-in-neural-network/</link>
+      <title>Semantic Searching</title>
+      <link>http://localhost:1313/posts/semantic-searching/</link>
       <pubDate>Fri, 21 Nov 2025 02:15:00 -0500</pubDate>
-      <guid>http://localhost:1313/posts/layers-in-neural-network/</guid>
-      <description>&lt;h1 id=&#34;what-are-layers&#34;&gt;What are layers?&lt;/h1&gt;&#xA;&lt;p&gt;Layers are the fundamental building blocks of neural networks. In PyTorch, layers are modular components that transform input data through learned parameters (weights and biases). Each layer performs a specific mathematical operation, and by stacking multiple layers together, we can create complex neural networks capable of learning intricate patterns.&lt;/p&gt;&#xA;&lt;h2 id=&#34;common-types-of-layers-in-pytorch&#34;&gt;Common Types of Layers in PyTorch&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-linear-layers-fully-connected&#34;&gt;1. Linear Layers (Fully Connected)&lt;/h3&gt;&#xA;&lt;p&gt;The most basic layer type that connects every input neuron to every output neuron. Each connection has a learnable weight, making it ideal for learning general relationships between features.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/semantic-searching/</guid>
+      <description>&lt;h1 id=&#34;semantic-search&#34;&gt;Semantic Search&lt;/h1&gt;&#xA;&lt;h1 id=&#34;-understanding-search-and-semantic-search&#34;&gt;💡 Understanding Search and Semantic Search&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-traditional-search-lexical-search&#34;&gt;1. Traditional Search (Lexical Search)&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Search&lt;/strong&gt; is the fundamental process of retrieving data or documents based on user input.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Focus:&lt;/strong&gt; It relies purely on &lt;strong&gt;keyword matching&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Mechanism:&lt;/strong&gt; It looks for exact or partial word matches between the user&amp;rsquo;s query and the documents.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Limitation:&lt;/strong&gt; It struggles with &lt;strong&gt;synonyms&lt;/strong&gt; and &lt;strong&gt;context&lt;/strong&gt;, often resulting in less relevant results if the exact keywords aren&amp;rsquo;t present.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-semantic-search-an-advanced-approach&#34;&gt;2. Semantic Search: An Advanced Approach&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Semantic Search&lt;/strong&gt; is an advanced method that focuses on the &lt;strong&gt;meaning&lt;/strong&gt; and &lt;strong&gt;intent&lt;/strong&gt; behind the user&amp;rsquo;s query, moving beyond simple keywords.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to build and train a simple Neural Network using pytorch</title>
