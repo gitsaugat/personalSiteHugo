@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rendu-Image on Saugat Siwakoti</title>
+    <link>http://localhost:1313/categories/rendu-image/</link>
+    <description>Recent content in Rendu-Image on Saugat Siwakoti</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 21 Nov 2025 02:15:00 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/rendu-image/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Layers in neural network</title>
+      <link>http://localhost:1313/posts/layers-in-neural-network/</link>
+      <pubDate>Fri, 21 Nov 2025 02:15:00 -0500</pubDate>
+      <guid>http://localhost:1313/posts/layers-in-neural-network/</guid>
+      <description>&lt;h1 id=&#34;what-are-layers-&#34;&gt;What are layers ?&lt;/h1&gt;&#xA;&lt;p&gt;PyTorch is a famous tool to build neural networks which can be used with Python&#xA;.&#xA;&#xA;&lt;figure class=&#34;image-figure not-prose my-8&#34; &#xA;        data-lightbox-enabled=&#34;false&#34;&#xA;        data-gallery-type=&#34;auto&#34;&gt;&#xA;  &lt;div class=&#34;image-container&#34;&gt;&#xA;    &lt;img&#xA;    src=&#34;https://media.geeksforgeeks.org/wp-content/uploads/20240916160154/234.webp&#34;&#xA;    alt=&#34;Alt text&#34;&#xA;    title=&#34;Sample Layers In NN - contributor: geek for geeks&#34;&#xA;    &#xA;    loading=&#34;lazy&#34;&#xA;    decoding=&#34;async&#34;&#xA;    data-gallery-src=&#34;https://media.geeksforgeeks.org/wp-content/uploads/20240916160154/234.webp&#34;&#xA;    data-gallery-alt=&#34;Alt text&#34;&#xA;    data-gallery-title=&#34;Sample Layers In NN - contributor: geek for geeks&#34; /&gt;&lt;/div&gt;&#xA;&#xA;  &lt;figcaption class=&#34;image-caption&#34;&gt;&#xA;      Sample Layers In NN - contributor: geek for geeks&#xA;    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;ordered-list&#34;&gt;Ordered List&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;First item&lt;/li&gt;&#xA;&lt;li&gt;Second item&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Nested ordered item 1&lt;/li&gt;&#xA;&lt;li&gt;Nested ordered item 2&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Even deeper nested item&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Third item&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;task-list-checkbox&#34;&gt;Task List (Checkbox)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Completed task&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Incomplete task&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Another completed task&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Nested task list&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Subtask 1 (done)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Subtask 2 (not done)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Subtask 3 (done)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;definition-list&#34;&gt;Definition List&lt;/h3&gt;&#xA;&lt;dl&gt;&#xA;&lt;dt&gt;Term 1&lt;/dt&gt;&#xA;&lt;dd&gt;This is the definition for term 1.&lt;/dd&gt;&#xA;&lt;dt&gt;Term 2&lt;/dt&gt;&#xA;&lt;dd&gt;This is the definition for term 2.&lt;/dd&gt;&#xA;&lt;dd&gt;Terms can have multiple definitions.&lt;/dd&gt;&#xA;&lt;/dl&gt;</description>
+    </item>
+  </channel>
+</rss>

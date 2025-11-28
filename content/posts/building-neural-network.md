@@ -3,6 +3,8 @@ title: How to build and train a simple Neural Network using pytorch
 description: A beginner's guide to creating neural networks with PyTorch
 date: 2025-11-16T02:15:00.000-05:00
 draft: false
+tags: ["Deep Learning","Neural Networks","Pytorch"]
+categories: ["AI/Machine Learning"]
 ---
 
 # PyTorch

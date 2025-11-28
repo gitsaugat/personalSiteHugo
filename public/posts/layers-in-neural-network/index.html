@@ -9,15 +9,15 @@
   content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<title>How to build and train a simple Neural Network using pytorch | Saugat Siwakoti</title>
+<title>Layers in neural network | Saugat Siwakoti</title>
 
-<meta name="description" content="A beginner&#39;s guide to creating neural networks with PyTorch" />
+<meta name="description" content="A beginners guide to understanding common layers in pytorch" />
 <meta name="keywords" content="Deep Learning, Neural Networks, Pytorch" />
 <meta name="author" content="Saugat Siwakoti" />
 <meta name="language" content="en-US" />
 
 <meta name="robots" content="index, follow" />
-<link rel="canonical" href="http://localhost:1313/posts/how-to-build-and-train-a-simple-neural-network-using-pytorch/" />
+<link rel="canonical" href="http://localhost:1313/posts/layers-in-neural-network/" />
 
 
 
@@ -26,15 +26,15 @@
 
 
 <link rel="manifest" href="/site.webmanifest" />
-<meta property="og:url" content="http://localhost:1313/posts/how-to-build-and-train-a-simple-neural-network-using-pytorch/">
+<meta property="og:url" content="http://localhost:1313/posts/layers-in-neural-network/">
   <meta property="og:site_name" content="Saugat Siwakoti">
-  <meta property="og:title" content="How to build and train a simple Neural Network using pytorch">
-  <meta property="og:description" content="A beginner&#39;s guide to creating neural networks with PyTorch">
+  <meta property="og:title" content="Layers in neural network">
+  <meta property="og:description" content="A beginners guide to understanding common layers in pytorch">
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-11-16T02:15:00-05:00">
-    <meta property="article:modified_time" content="2025-11-16T02:15:00-05:00">
+    <meta property="article:published_time" content="2025-11-21T02:15:00-05:00">
+    <meta property="article:modified_time" content="2025-11-21T02:15:00-05:00">
     <meta property="article:tag" content="Deep Learning">
     <meta property="article:tag" content="Neural Networks">
     <meta property="article:tag" content="Pytorch">
@@ -43,15 +43,15 @@
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/images/og-default.avif">
-  <meta name="twitter:title" content="How to build and train a simple Neural Network using pytorch">
-  <meta name="twitter:description" content="A beginner&#39;s guide to creating neural networks with PyTorch">
+  <meta name="twitter:title" content="Layers in neural network">
+  <meta name="twitter:description" content="A beginners guide to understanding common layers in pytorch">
 
 
-  <meta itemprop="name" content="How to build and train a simple Neural Network using pytorch">
-  <meta itemprop="description" content="A beginner&#39;s guide to creating neural networks with PyTorch">
-  <meta itemprop="datePublished" content="2025-11-16T02:15:00-05:00">
-  <meta itemprop="dateModified" content="2025-11-16T02:15:00-05:00">
-  <meta itemprop="wordCount" content="299">
+  <meta itemprop="name" content="Layers in neural network">
+  <meta itemprop="description" content="A beginners guide to understanding common layers in pytorch">
+  <meta itemprop="datePublished" content="2025-11-21T02:15:00-05:00">
+  <meta itemprop="dateModified" content="2025-11-21T02:15:00-05:00">
+  <meta itemprop="wordCount" content="908">
   <meta itemprop="image" content="http://localhost:1313/images/og-default.avif">
   <meta itemprop="keywords" content="Deep Learning,Neural Networks,Pytorch">
 
@@ -1009,7 +1009,7 @@
     stroke="currentColor"
     viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
 </svg>
-              <span class="max-w-[8rem] md:max-w-[16rem] lg:max-w-none truncate">How to build and train a simple Neural Network using pytorch</span>
+              <span class="max-w-[8rem] md:max-w-[16rem] lg:max-w-none truncate">Layers in neural network</span>
             </span>
           </div>
         
@@ -1032,7 +1032,7 @@
 <div class="post-meta">
   
   <h1 class="text-foreground mb-6 text-3xl leading-tight font-bold md:text-4xl">
-    How to build and train a simple Neural Network using pytorch
+    Layers in neural network
   </h1>
 
   
@@ -1052,8 +1052,8 @@
     stroke="currentColor"
     viewBox="0 0 24 24" aria-label="Published on"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
 </svg>
-        <time datetime="2025-11-16">
-          November 16, 2025
+        <time datetime="2025-11-21">
+          November 21, 2025
         </time>
       </div>
 
@@ -1071,7 +1071,7 @@
     viewBox="0 0 24 24" aria-label="Reading time"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
 </svg>
           <span
-            >2 minute</span
+            >5 minute</span
           >
         </div>
       
@@ -1086,7 +1086,7 @@
     stroke="currentColor"
     viewBox="0 0 24 24" aria-label="Word count"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
 </svg>
-          <span>299 words</span>
+          <span>908 words</span>
         </div>
       
 
@@ -1174,11 +1174,11 @@
 
   
   <article class="prose prose-neutral dark:prose-invert mb-12 max-w-none">
-    <h1 id="pytorch">PyTorch</h1>
-<p>PyTorch is a famous tool to build neural networks which can be used with Python
-.</p>
-<h2 id="installation">Installation</h2>
-<p>First, install PyTorch using pip:</p>
+    <h1 id="what-are-layers">What are layers?</h1>
+<p>Layers are the fundamental building blocks of neural networks. In PyTorch, layers are modular components that transform input data through learned parameters (weights and biases). Each layer performs a specific mathematical operation, and by stacking multiple layers together, we can create complex neural networks capable of learning intricate patterns.</p>
+<h2 id="common-types-of-layers-in-pytorch">Common Types of Layers in PyTorch</h2>
+<h3 id="1-linear-layers-fully-connected">1. Linear Layers (Fully Connected)</h3>
+<p>The most basic layer type that connects every input neuron to every output neuron. Each connection has a learnable weight, making it ideal for learning general relationships between features.</p>
 <div
   class="code-block-container border-border bg-card my-6 overflow-hidden rounded-xl border shadow-sm transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-md">
   
@@ -1195,7 +1195,7 @@
 </svg>
       </div>
       <span class="text-muted-foreground text-sm font-medium">
-        BASH
+        PYTHON
       </span>
     </div>
 
@@ -1244,7 +1244,10 @@
 
   
   <div class="code-block-content relative" id="code-0">
-    <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pip install torch torchvision</span></span></code></pre></div>
+    <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">torch.</span> <span class="n">nn</span> <span class="k">as</span> <span class="n">nn</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Create a linear layer: 10 inputs -&gt; 5 outputs</span>
+</span></span><span class="line"><span class="cl"><span class="n">layer</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span></span></span></code></pre></div>
     
     <div
       class="collapse-overlay to-card/90 pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-transparent opacity-0 transition-opacity duration-300">
@@ -1477,8 +1480,15 @@
   }
 })();
 </script>
-<h2 id="building-a-simple-neural-network">Building a Simple Neural Network</h2>
-<h3 id="step-1-import-required-libraries">Step 1: Import Required Libraries</h3>
+<p><strong>What it&rsquo;s used for</strong>:</p>
+<ul>
+<li>Final classification layers in most neural networks</li>
+<li>Transforming feature representations</li>
+<li>Traditional feed-forward neural networks</li>
+<li>Connecting different architectural components together</li>
+</ul>
+<h3 id="2-convolutional-layers">2. Convolutional Layers</h3>
+<p>Designed for processing grid-like data such as images. They apply filters (kernels) that slide across the input to detect local patterns like edges, textures, and shapes. Conv layers share weights across spatial locations, making them parameter-efficient.</p>
 <div
   class="code-block-container border-border bg-card my-6 overflow-hidden rounded-xl border shadow-sm transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-md">
   
@@ -1544,9 +1554,8 @@
 
   
   <div class="code-block-content relative" id="code-1">
-    <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">torch</span>
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">torch.nn</span> <span class="k">as</span> <span class="nn">nn</span>
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">torch.optim</span> <span class="k">as</span> <span class="nn">optim</span></span></span></code></pre></div>
+    <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># 2D Convolution: 3 input channels (RGB) -&gt; 16 output channels</span>
+</span></span><span class="line"><span class="cl"><span class="n">conv_layer</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Conv2d</span><span class="p">(</span><span class="n">in_channels</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">out_channels</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">kernel_size</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span></span></span></code></pre></div>
     
     <div
       class="collapse-overlay to-card/90 pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-transparent opacity-0 transition-opacity duration-300">
@@ -1779,7 +1788,17 @@
   }
 })();
 </script>
-<h3 id="step-2-define-the-network-architecture">Step 2: Define the Network Architecture</h3>
+<p><strong>What it&rsquo;s used for</strong>:</p>
+<ul>
+<li>Image classification (recognizing objects in photos)</li>
+<li>Object detection (finding and locating objects)</li>
+<li>Image segmentation (pixel-level classification)</li>
+<li>Facial recognition systems</li>
+<li>Medical image analysis</li>
+<li>Video processing and action recognition</li>
+</ul>
+<h3 id="3-recurrent-layers">3. Recurrent Layers</h3>
+<p>Process sequential data by maintaining hidden states across time steps. LSTM (Long Short-Term Memory) is a special type of RNN that can learn long-term dependencies by using gates to control information flow, solving the vanishing gradient problem.</p>
 <div
   class="code-block-container border-border bg-card my-6 overflow-hidden rounded-xl border shadow-sm transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-md">
   
@@ -1845,18 +1864,8 @@
 
   
   <div class="code-block-content relative" id="code-2">
-    <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">SimpleNN</span><span class="p">(</span><span class="n">nn</span><span class="o">.</span><span class="n">Module</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">input_size</span><span class="p">,</span> <span class="n">hidden_size</span><span class="p">,</span> <span class="n">output_size</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">        <span class="nb">super</span><span class="p">(</span><span class="n">SimpleNN</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">layer1</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">input_size</span><span class="p">,</span> <span class="n">hidden_size</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">relu</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">ReLU</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">layer2</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">hidden_size</span><span class="p">,</span> <span class="n">output_size</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    
-</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">        <span class="n">x</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">layer1</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="n">x</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">relu</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="n">x</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">layer2</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">x</span></span></span></code></pre></div>
+    <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># LSTM layer: input size 10, hidden size 20, 2 layers</span>
+</span></span><span class="line"><span class="cl"><span class="n">lstm_layer</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">LSTM</span><span class="p">(</span><span class="n">input_size</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">hidden_size</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">num_layers</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span></span></span></code></pre></div>
     
     <div
       class="collapse-overlay to-card/90 pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-transparent opacity-0 transition-opacity duration-300">
@@ -2089,7 +2098,19 @@
   }
 })();
 </script>
-<h3 id="step-3-initialize-the-model">Step 3: Initialize the Model</h3>
+<p><strong>What LSTM is used for</strong>:</p>
+<ul>
+<li>Natural language processing (text generation, translation)</li>
+<li>Speech recognition and synthesis</li>
+<li>Time series forecasting (stock prices, weather)</li>
+<li>Music generation</li>
+<li>Video captioning and analysis</li>
+<li>Sentiment analysis</li>
+<li>Handwriting recognition</li>
+<li>Any task where past context matters for future predictions</li>
+</ul>
+<h3 id="4-activation-layers">4. Activation Layers</h3>
+<p>Introduce non-linearity to help networks learn complex patterns. Without activation functions, neural networks would just be linear transformations, no matter how deep.</p>
 <div
   class="code-block-container border-border bg-card my-6 overflow-hidden rounded-xl border shadow-sm transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-md">
   
@@ -2155,13 +2176,9 @@
 
   
   <div class="code-block-content relative" id="code-3">
-    <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># Define dimensions</span>
-</span></span><span class="line"><span class="cl"><span class="n">input_size</span> <span class="o">=</span> <span class="mi">10</span>
-</span></span><span class="line"><span class="cl"><span class="n">hidden_size</span> <span class="o">=</span> <span class="mi">20</span>
-</span></span><span class="line"><span class="cl"><span class="n">output_size</span> <span class="o">=</span> <span class="mi">2</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Create model instance</span>
-</span></span><span class="line"><span class="cl"><span class="n">model</span> <span class="o">=</span> <span class="n">SimpleNN</span><span class="p">(</span><span class="n">input_size</span><span class="p">,</span> <span class="n">hidden_size</span><span class="p">,</span> <span class="n">output_size</span><span class="p">)</span></span></span></code></pre></div>
+    <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">relu</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">ReLU</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="n">sigmoid</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Sigmoid</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="n">tanh</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Tanh</span><span class="p">()</span></span></span></code></pre></div>
     
     <div
       class="collapse-overlay to-card/90 pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-transparent opacity-0 transition-opacity duration-300">
@@ -2394,7 +2411,40 @@
   }
 })();
 </script>
-<h3 id="step-4-define-loss-function-and-optimizer">Step 4: Define Loss Function and Optimizer</h3>
+<p><strong>What each activation is used for</strong>:</p>
+<ul>
+<li>
+<p><strong>ReLU (Rectified Linear Unit)</strong>:</p>
+<ul>
+<li>Most popular activation function</li>
+<li>Fast to compute (just max(0, x))</li>
+<li>Used in hidden layers of most modern networks</li>
+<li>Helps avoid vanishing gradient problem</li>
+<li>Best for: Deep networks, CNNs, general purpose</li>
+</ul>
+</li>
+<li>
+<p><strong>Sigmoid</strong>:</p>
+<ul>
+<li>Squashes output between 0 and 1</li>
+<li>Useful for binary classification (output layer)</li>
+<li>Interpreting outputs as probabilities</li>
+<li>LSTM gate activations</li>
+<li>Best for: Binary outputs, probability estimates</li>
+</ul>
+</li>
+<li>
+<p><strong>Tanh (Hyperbolic Tangent)</strong>:</p>
+<ul>
+<li>Output between -1 and 1 (zero-centered)</li>
+<li>Better than sigmoid for hidden layers</li>
+<li>Used in RNNs and LSTMs</li>
+<li>Best for: RNN hidden states, when you need negative values</li>
+</ul>
+</li>
+</ul>
+<h3 id="5-normalization-layers">5. Normalization Layers</h3>
+<p>Stabilize and accelerate training by normalizing inputs. Batch normalization normalizes the output of a layer by adjusting and scaling activations, which helps reduce internal covariate shift.</p>
 <div
   class="code-block-container border-border bg-card my-6 overflow-hidden rounded-xl border shadow-sm transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-md">
   
@@ -2460,8 +2510,8 @@
 
   
   <div class="code-block-content relative" id="code-4">
-    <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">criterion</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">CrossEntropyLoss</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl"><span class="n">optimizer</span> <span class="o">=</span> <span class="n">optim</span><span class="o">.</span><span class="n">Adam</span><span class="p">(</span><span class="n">model</span><span class="o">.</span><span class="n">parameters</span><span class="p">(),</span> <span class="n">lr</span><span class="o">=</span><span class="mf">0.001</span><span class="p">)</span></span></span></code></pre></div>
+    <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># Batch normalization for 64 features</span>
+</span></span><span class="line"><span class="cl"><span class="n">batch_norm</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">BatchNorm1d</span><span class="p">(</span><span class="mi">64</span><span class="p">)</span></span></span></code></pre></div>
     
     <div
       class="collapse-overlay to-card/90 pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-transparent opacity-0 transition-opacity duration-300">
@@ -2694,7 +2744,17 @@
   }
 })();
 </script>
-<h3 id="step-5-training-loop">Step 5: Training Loop</h3>
+<p><strong>What it&rsquo;s used for</strong>:</p>
+<ul>
+<li>Accelerating training of deep networks</li>
+<li>Allowing higher learning rates</li>
+<li>Reducing sensitivity to weight initialization</li>
+<li>Acts as a form of regularization</li>
+<li>Improving gradient flow through deep networks</li>
+<li>Most commonly placed after linear or convolutional layers, before activation</li>
+</ul>
+<h3 id="6-pooling-layers">6. Pooling Layers</h3>
+<p>Reduce spatial dimensions while retaining important features.</p>
 <div
   class="code-block-container border-border bg-card my-6 overflow-hidden rounded-xl border shadow-sm transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-md">
   
@@ -2760,19 +2820,8 @@
 
   
   <div class="code-block-content relative" id="code-5">
-    <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># Example training loop</span>
-</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">epoch</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">100</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="c1"># Forward pass</span>
-</span></span><span class="line"><span class="cl">    <span class="n">outputs</span> <span class="o">=</span> <span class="n">model</span><span class="p">(</span><span class="n">train_data</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="n">loss</span> <span class="o">=</span> <span class="n">criterion</span><span class="p">(</span><span class="n">outputs</span><span class="p">,</span> <span class="n">train_labels</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    
-</span></span><span class="line"><span class="cl">    <span class="c1"># Backward pass and optimization</span>
-</span></span><span class="line"><span class="cl">    <span class="n">optimizer</span><span class="o">.</span><span class="n">zero_grad</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">    <span class="n">loss</span><span class="o">.</span><span class="n">backward</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">    <span class="n">optimizer</span><span class="o">.</span><span class="n">step</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">    
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">epoch</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">%</span> <span class="mi">10</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Epoch [</span><span class="si">{</span><span class="n">epoch</span><span class="o">+</span><span class="mi">1</span><span class="si">}</span><span class="s1">/100], Loss: </span><span class="si">{</span><span class="n">loss</span><span class="o">.</span><span class="n">item</span><span class="p">()</span><span class="si">:</span><span class="s1">.4f</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span></span></span></code></pre></div>
+    <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># Max pooling with 2x2 window</span>
+</span></span><span class="line"><span class="cl"><span class="n">max_pool</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">MaxPool2d</span><span class="p">(</span><span class="n">kernel_size</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span></span></span></code></pre></div>
     
     <div
       class="collapse-overlay to-card/90 pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-transparent opacity-0 transition-opacity duration-300">
@@ -3005,17 +3054,677 @@
   }
 })();
 </script>
-<h2 id="key-concepts">Key Concepts</h2>
+<p><strong>Use cases</strong>: Downsampling in CNNs, reducing computational cost</p>
+<h3 id="7-dropout-layers">7. Dropout Layers</h3>
+<p>Prevent overfitting by randomly dropping neurons during training.</p>
+<div
+  class="code-block-container border-border bg-card my-6 overflow-hidden rounded-xl border shadow-sm transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-md">
+  
+  <div
+    class="code-block-header bg-muted/30 border-border flex items-center justify-between border-b px-4 py-3">
+    
+    <div class="flex items-center gap-2">
+      <div class="text-muted-foreground flex-shrink-0">
+        
+  <svg class="h-4 w-4"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+</svg>
+      </div>
+      <span class="text-muted-foreground text-sm font-medium">
+        PYTHON
+      </span>
+    </div>
+
+    
+    <div class="flex items-center gap-2">
+      <button
+          class="collapse-code-btn text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 flex items-center gap-1.5 rounded-md px-2 py-1 text-xs font-medium transition-all duration-200 ease-out focus:ring-2 focus:outline-none"
+          data-code-id="code-6"
+          data-default-state="expanded"
+          data-collapsed="false"
+          data-auto-collapse-lines="30"
+          data-auto-collapse-height="400"
+          data-collapsed-height="120"
+          title="Collapse"
+          aria-label="Collapse">
+          <span class="collapse-icon">
+            
+  <svg class="h-3 w-3"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"><path fill="currentColor" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6l-6 6z"/></svg>
+          </span>
+          <span class="collapse-text hidden sm:inline"
+            >Collapse</span
+          >
+        </button>
+      <button
+        class="copy-code-btn text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 flex items-center gap-1.5 rounded-md px-2 py-1 text-xs font-medium transition-all duration-200 ease-out focus:ring-2 focus:outline-none"
+        data-code-id="code-6"
+        title="Copy"
+        aria-label="Copy">
+        <span class="copy-icon">
+          
+  <svg class="h-3 w-3"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+</svg>
+        </span>
+        <span class="copy-text hidden sm:inline"
+          >Copy</span
+        >
+      </button>
+    </div>
+  </div>
+
+  
+  <div class="code-block-content relative" id="code-6">
+    <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># Drop 50% of neurons during training</span>
+</span></span><span class="line"><span class="cl"><span class="n">dropout</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Dropout</span><span class="p">(</span><span class="n">p</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span></span></span></code></pre></div>
+    
+    <div
+      class="collapse-overlay to-card/90 pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-transparent opacity-0 transition-opacity duration-300">
+      <div
+        class="text-muted-foreground bg-card/80 border-border/50 hover:bg-primary/10 hover:text-primary hover:border-primary/30 absolute bottom-4 left-1/2 -translate-x-1/2 cursor-pointer rounded-full border px-3 py-1.5 text-xs backdrop-blur-sm transition-all duration-200">
+        Click to expand and view more
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+(function() {
+  const codeId = 'code-6';
+  const copyBtn = document.querySelector('.copy-code-btn[data-code-id="' + codeId + '"]');
+  const collapseBtn = document.querySelector('.collapse-code-btn[data-code-id="' + codeId + '"]');
+  const codeContainer = document.getElementById(codeId);
+
+  if (!codeContainer) return;
+
+  
+  if (copyBtn) {
+    const copyIcon = copyBtn.querySelector('.copy-icon');
+    const copyText = copyBtn.querySelector('.copy-text');
+
+    copyBtn.addEventListener('click', async function() {
+      try {
+        
+        let codeText = '';
+
+        
+        const codeTableCell = codeContainer.querySelector('.lntd:last-child code');
+        if (codeTableCell) {
+          codeText = codeTableCell.textContent || codeTableCell.innerText;
+        } else {
+          
+          const codeElement = codeContainer.querySelector('code');
+          if (codeElement) {
+            
+            const hasInlineLineNumbers = codeElement.querySelector('.ln');
+            if (hasInlineLineNumbers) {
+              
+              const codeLines = codeElement.querySelectorAll('.cl');
+              if (codeLines.length > 0) {
+                codeText = Array.from(codeLines)
+                  .map(line => {
+                    const text = line.textContent || line.innerText;
+                    
+                    return text.replace(/\n+$/, '');
+                  })
+                  .join('\n')
+                  .replace(/\n+$/, ''); 
+              } else {
+                
+                const allText = codeElement.textContent || codeElement.innerText;
+                codeText = allText.replace(/^\d+/gm, '').replace(/^\s+/gm, '');
+              }
+            } else {
+              
+              codeText = codeElement.textContent || codeElement.innerText;
+            }
+          } else {
+            
+            codeText = codeContainer.textContent || codeContainer.innerText;
+          }
+        }
+
+        
+        codeText = codeText.trim();
+
+        
+        await navigator.clipboard.writeText(codeText);
+
+        
+        copyIcon.innerHTML = `\n  \u003csvg class=\u0022h-3 w-3\u0022\n    fill=\u0022none\u0022\n    stroke=\u0022currentColor\u0022\n    viewBox=\u00220 0 24 24\u0022\u003e\u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
+        if (copyText) {
+          copyText.textContent = 'Copied';
+        }
+        copyBtn.classList.add('text-green-600');
+
+        
+        setTimeout(() => {
+          copyIcon.innerHTML = `\n  \u003csvg class=\u0022h-3 w-3\u0022\n    fill=\u0022none\u0022\n    stroke=\u0022currentColor\u0022\n    viewBox=\u00220 0 24 24\u0022\u003e\u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
+          if (copyText) {
+            copyText.textContent = 'Copy';
+          }
+          copyBtn.classList.remove('text-green-600');
+        }, 2000);
+
+      } catch (err) {
+        console.error('复制失败:', err);
+
+        
+        const range = document.createRange();
+        const codeElement = codeContainer.querySelector('code') || codeContainer;
+        range.selectNodeContents(codeElement);
+        const selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+
+        
+        if (copyText) {
+          copyText.textContent = 'Selected';
+        }
+
+        setTimeout(() => {
+          if (copyText) {
+            copyText.textContent = 'Copy';
+          }
+          selection.removeAllRanges();
+        }, 2000);
+      }
+    });
+  }
+
+  
+  if (collapseBtn) {
+    const collapseIcon = collapseBtn.querySelector('.collapse-icon');
+    const collapseText = collapseBtn.querySelector('.collapse-text');
+    const collapseOverlay = codeContainer.querySelector('.collapse-overlay');
+
+    
+    let codeElement = codeContainer.querySelector('pre.chroma');
+    if (!codeElement) {
+      codeElement = codeContainer.querySelector('pre');
+    }
+
+    const defaultState = collapseBtn.dataset.defaultState || 'expanded';
+    const isCollapsedAttr = collapseBtn.dataset.collapsed === 'true';
+    const autoCollapseLines = parseInt(collapseBtn.dataset.autoCollapseLines) || 30;
+    const autoCollapseHeight = parseInt(collapseBtn.dataset.autoCollapseHeight) || 400;
+    const collapsedHeight = parseInt(collapseBtn.dataset.collapsedHeight) || 120;
+
+    let isCollapsed = false;
+
+    
+    function initCollapse() {
+      
+      const shouldCollapse = isCollapsedAttr ||
+                           defaultState === 'collapsed' ||
+                           shouldAutoCollapse();
+
+      if (shouldCollapse) {
+        setCollapsed(true, false); 
+      }
+    }
+
+    function shouldAutoCollapse() {
+      
+      if (codeElement) {
+        const lines = codeElement.querySelectorAll('.line, .cl');
+        const height = codeElement.offsetHeight;
+        return lines.length > autoCollapseLines || height > autoCollapseHeight;
+      }
+
+      
+      const containerHeight = codeContainer.offsetHeight;
+      if (containerHeight > autoCollapseHeight) {
+        return true;
+      }
+
+      
+      const textContent = codeContainer.textContent || codeContainer.innerText || '';
+      const estimatedLines = textContent.split('\n').length;
+      return estimatedLines > autoCollapseLines;
+    }
+
+    function setCollapsed(collapsed, animate = true) {
+      if (!collapseOverlay) return;
+
+      isCollapsed = collapsed;
+
+      if (collapsed) {
+        
+        codeContainer.style.maxHeight = collapsedHeight + 'px';
+        codeContainer.style.overflow = 'hidden';
+        collapseOverlay.style.opacity = '1';
+        collapseOverlay.style.pointerEvents = 'auto';
+
+        
+        collapseIcon.innerHTML = `\n  \u003csvg class=\u0022h-3 w-3\u0022\n    fill=\u0022none\u0022\n    stroke=\u0022currentColor\u0022\n    viewBox=\u00220 0 24 24\u0022\u003e\u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
+        if (collapseText) {
+          collapseText.textContent = 'Expand';
+        }
+        collapseBtn.title = 'Expand';
+
+      } else {
+        
+        codeContainer.style.maxHeight = '';
+        codeContainer.style.overflow = '';
+        collapseOverlay.style.opacity = '0';
+        collapseOverlay.style.pointerEvents = 'none';
+
+        
+        collapseIcon.innerHTML = `\n  \u003csvg class=\u0022h-3 w-3\u0022\n    fill=\u0022none\u0022\n    stroke=\u0022currentColor\u0022\n    viewBox=\u00220 0 24 24\u0022\u003e\u003cpath fill=\u0022currentColor\u0022 d=\u0022M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6l-6 6z\u0022\/\u003e\u003c\/svg\u003e`;
+        if (collapseText) {
+          collapseText.textContent = 'Collapse';
+        }
+        collapseBtn.title = 'Collapse';
+      }
+
+      
+      if (animate) {
+        codeContainer.style.transition = 'max-height 0.3s ease-out';
+        setTimeout(() => {
+          codeContainer.style.transition = '';
+        }, 300);
+      }
+    }
+
+    function toggleCollapse() {
+      setCollapsed(!isCollapsed, true);
+    }
+
+    
+    collapseBtn.addEventListener('click', toggleCollapse);
+
+    
+    if (collapseOverlay) {
+      collapseOverlay.addEventListener('click', () => {
+        if (isCollapsed) {
+          setCollapsed(false, true);
+        }
+      });
+    }
+
+    
+    initCollapse();
+  }
+})();
+</script>
+<p><strong>Use cases</strong>: Regularization, preventing overfitting in large models</p>
+<h2 id="building-a-multi-layer-network">Building a Multi-Layer Network</h2>
+<p>Here&rsquo;s how different layers work together:</p>
+<div
+  class="code-block-container border-border bg-card my-6 overflow-hidden rounded-xl border shadow-sm transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-md">
+  
+  <div
+    class="code-block-header bg-muted/30 border-border flex items-center justify-between border-b px-4 py-3">
+    
+    <div class="flex items-center gap-2">
+      <div class="text-muted-foreground flex-shrink-0">
+        
+  <svg class="h-4 w-4"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+</svg>
+      </div>
+      <span class="text-muted-foreground text-sm font-medium">
+        PYTHON
+      </span>
+    </div>
+
+    
+    <div class="flex items-center gap-2">
+      <button
+          class="collapse-code-btn text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 flex items-center gap-1.5 rounded-md px-2 py-1 text-xs font-medium transition-all duration-200 ease-out focus:ring-2 focus:outline-none"
+          data-code-id="code-7"
+          data-default-state="expanded"
+          data-collapsed="false"
+          data-auto-collapse-lines="30"
+          data-auto-collapse-height="400"
+          data-collapsed-height="120"
+          title="Collapse"
+          aria-label="Collapse">
+          <span class="collapse-icon">
+            
+  <svg class="h-3 w-3"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"><path fill="currentColor" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6l-6 6z"/></svg>
+          </span>
+          <span class="collapse-text hidden sm:inline"
+            >Collapse</span
+          >
+        </button>
+      <button
+        class="copy-code-btn text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 flex items-center gap-1.5 rounded-md px-2 py-1 text-xs font-medium transition-all duration-200 ease-out focus:ring-2 focus:outline-none"
+        data-code-id="code-7"
+        title="Copy"
+        aria-label="Copy">
+        <span class="copy-icon">
+          
+  <svg class="h-3 w-3"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+</svg>
+        </span>
+        <span class="copy-text hidden sm:inline"
+          >Copy</span
+        >
+      </button>
+    </div>
+  </div>
+
+  
+  <div class="code-block-content relative" id="code-7">
+    <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">MultiLayerNet</span><span class="p">(</span><span class="n">nn</span><span class="o">.</span><span class="n">Module</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">super</span><span class="p">(</span><span class="n">MultiLayerNet</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">conv1</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Conv2d</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="n">kernel_size</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">relu</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">ReLU</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">pool</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">MaxPool2d</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">fc1</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="mi">16</span> <span class="o">*</span> <span class="mi">13</span> <span class="o">*</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">128</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">dropout</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Dropout</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">fc2</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="mi">128</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="n">x</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">pool</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">relu</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">conv1</span><span class="p">(</span><span class="n">x</span><span class="p">)))</span>
+</span></span><span class="line"><span class="cl">        <span class="n">x</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span><span class="n">view</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">16</span> <span class="o">*</span> <span class="mi">13</span> <span class="o">*</span> <span class="mi">13</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">x</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">relu</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">fc1</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="n">x</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">dropout</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">x</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">fc2</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">x</span></span></span></code></pre></div>
+    
+    <div
+      class="collapse-overlay to-card/90 pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-transparent opacity-0 transition-opacity duration-300">
+      <div
+        class="text-muted-foreground bg-card/80 border-border/50 hover:bg-primary/10 hover:text-primary hover:border-primary/30 absolute bottom-4 left-1/2 -translate-x-1/2 cursor-pointer rounded-full border px-3 py-1.5 text-xs backdrop-blur-sm transition-all duration-200">
+        Click to expand and view more
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+(function() {
+  const codeId = 'code-7';
+  const copyBtn = document.querySelector('.copy-code-btn[data-code-id="' + codeId + '"]');
+  const collapseBtn = document.querySelector('.collapse-code-btn[data-code-id="' + codeId + '"]');
+  const codeContainer = document.getElementById(codeId);
+
+  if (!codeContainer) return;
+
+  
+  if (copyBtn) {
+    const copyIcon = copyBtn.querySelector('.copy-icon');
+    const copyText = copyBtn.querySelector('.copy-text');
+
+    copyBtn.addEventListener('click', async function() {
+      try {
+        
+        let codeText = '';
+
+        
+        const codeTableCell = codeContainer.querySelector('.lntd:last-child code');
+        if (codeTableCell) {
+          codeText = codeTableCell.textContent || codeTableCell.innerText;
+        } else {
+          
+          const codeElement = codeContainer.querySelector('code');
+          if (codeElement) {
+            
+            const hasInlineLineNumbers = codeElement.querySelector('.ln');
+            if (hasInlineLineNumbers) {
+              
+              const codeLines = codeElement.querySelectorAll('.cl');
+              if (codeLines.length > 0) {
+                codeText = Array.from(codeLines)
+                  .map(line => {
+                    const text = line.textContent || line.innerText;
+                    
+                    return text.replace(/\n+$/, '');
+                  })
+                  .join('\n')
+                  .replace(/\n+$/, ''); 
+              } else {
+                
+                const allText = codeElement.textContent || codeElement.innerText;
+                codeText = allText.replace(/^\d+/gm, '').replace(/^\s+/gm, '');
+              }
+            } else {
+              
+              codeText = codeElement.textContent || codeElement.innerText;
+            }
+          } else {
+            
+            codeText = codeContainer.textContent || codeContainer.innerText;
+          }
+        }
+
+        
+        codeText = codeText.trim();
+
+        
+        await navigator.clipboard.writeText(codeText);
+
+        
+        copyIcon.innerHTML = `\n  \u003csvg class=\u0022h-3 w-3\u0022\n    fill=\u0022none\u0022\n    stroke=\u0022currentColor\u0022\n    viewBox=\u00220 0 24 24\u0022\u003e\u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
+        if (copyText) {
+          copyText.textContent = 'Copied';
+        }
+        copyBtn.classList.add('text-green-600');
+
+        
+        setTimeout(() => {
+          copyIcon.innerHTML = `\n  \u003csvg class=\u0022h-3 w-3\u0022\n    fill=\u0022none\u0022\n    stroke=\u0022currentColor\u0022\n    viewBox=\u00220 0 24 24\u0022\u003e\u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
+          if (copyText) {
+            copyText.textContent = 'Copy';
+          }
+          copyBtn.classList.remove('text-green-600');
+        }, 2000);
+
+      } catch (err) {
+        console.error('复制失败:', err);
+
+        
+        const range = document.createRange();
+        const codeElement = codeContainer.querySelector('code') || codeContainer;
+        range.selectNodeContents(codeElement);
+        const selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+
+        
+        if (copyText) {
+          copyText.textContent = 'Selected';
+        }
+
+        setTimeout(() => {
+          if (copyText) {
+            copyText.textContent = 'Copy';
+          }
+          selection.removeAllRanges();
+        }, 2000);
+      }
+    });
+  }
+
+  
+  if (collapseBtn) {
+    const collapseIcon = collapseBtn.querySelector('.collapse-icon');
+    const collapseText = collapseBtn.querySelector('.collapse-text');
+    const collapseOverlay = codeContainer.querySelector('.collapse-overlay');
+
+    
+    let codeElement = codeContainer.querySelector('pre.chroma');
+    if (!codeElement) {
+      codeElement = codeContainer.querySelector('pre');
+    }
+
+    const defaultState = collapseBtn.dataset.defaultState || 'expanded';
+    const isCollapsedAttr = collapseBtn.dataset.collapsed === 'true';
+    const autoCollapseLines = parseInt(collapseBtn.dataset.autoCollapseLines) || 30;
+    const autoCollapseHeight = parseInt(collapseBtn.dataset.autoCollapseHeight) || 400;
+    const collapsedHeight = parseInt(collapseBtn.dataset.collapsedHeight) || 120;
+
+    let isCollapsed = false;
+
+    
+    function initCollapse() {
+      
+      const shouldCollapse = isCollapsedAttr ||
+                           defaultState === 'collapsed' ||
+                           shouldAutoCollapse();
+
+      if (shouldCollapse) {
+        setCollapsed(true, false); 
+      }
+    }
+
+    function shouldAutoCollapse() {
+      
+      if (codeElement) {
+        const lines = codeElement.querySelectorAll('.line, .cl');
+        const height = codeElement.offsetHeight;
+        return lines.length > autoCollapseLines || height > autoCollapseHeight;
+      }
+
+      
+      const containerHeight = codeContainer.offsetHeight;
+      if (containerHeight > autoCollapseHeight) {
+        return true;
+      }
+
+      
+      const textContent = codeContainer.textContent || codeContainer.innerText || '';
+      const estimatedLines = textContent.split('\n').length;
+      return estimatedLines > autoCollapseLines;
+    }
+
+    function setCollapsed(collapsed, animate = true) {
+      if (!collapseOverlay) return;
+
+      isCollapsed = collapsed;
+
+      if (collapsed) {
+        
+        codeContainer.style.maxHeight = collapsedHeight + 'px';
+        codeContainer.style.overflow = 'hidden';
+        collapseOverlay.style.opacity = '1';
+        collapseOverlay.style.pointerEvents = 'auto';
+
+        
+        collapseIcon.innerHTML = `\n  \u003csvg class=\u0022h-3 w-3\u0022\n    fill=\u0022none\u0022\n    stroke=\u0022currentColor\u0022\n    viewBox=\u00220 0 24 24\u0022\u003e\u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
+        if (collapseText) {
+          collapseText.textContent = 'Expand';
+        }
+        collapseBtn.title = 'Expand';
+
+      } else {
+        
+        codeContainer.style.maxHeight = '';
+        codeContainer.style.overflow = '';
+        collapseOverlay.style.opacity = '0';
+        collapseOverlay.style.pointerEvents = 'none';
+
+        
+        collapseIcon.innerHTML = `\n  \u003csvg class=\u0022h-3 w-3\u0022\n    fill=\u0022none\u0022\n    stroke=\u0022currentColor\u0022\n    viewBox=\u00220 0 24 24\u0022\u003e\u003cpath fill=\u0022currentColor\u0022 d=\u0022M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6l-6 6z\u0022\/\u003e\u003c\/svg\u003e`;
+        if (collapseText) {
+          collapseText.textContent = 'Collapse';
+        }
+        collapseBtn.title = 'Collapse';
+      }
+
+      
+      if (animate) {
+        codeContainer.style.transition = 'max-height 0.3s ease-out';
+        setTimeout(() => {
+          codeContainer.style.transition = '';
+        }, 300);
+      }
+    }
+
+    function toggleCollapse() {
+      setCollapsed(!isCollapsed, true);
+    }
+
+    
+    collapseBtn.addEventListener('click', toggleCollapse);
+
+    
+    if (collapseOverlay) {
+      collapseOverlay.addEventListener('click', () => {
+        if (isCollapsed) {
+          setCollapsed(false, true);
+        }
+      });
+    }
+
+    
+    initCollapse();
+  }
+})();
+</script>
+<h2 id="layer-selection-guide">Layer Selection Guide</h2>
+<h3 id="ordered-list">Ordered List</h3>
+<p>This shows how to create numbered lists in markdown, which are useful for sequential steps or ranked items.</p>
+<ol>
+<li>First item</li>
+<li>Second item
+<ol>
+<li>Nested ordered item 1</li>
+<li>Nested ordered item 2
+<ol>
+<li>Even deeper nested item</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Third item</li>
+</ol>
+<h3 id="task-list-checkbox">Task List (Checkbox)</h3>
+<p>Task lists are perfect for tracking progress on items. They render as checkboxes in many markdown viewers.</p>
 <ul>
-<li><strong>nn.Module</strong>: Base class for all neural network modules</li>
-<li><strong>Forward pass</strong>: Defines how data flows through the network</li>
-<li><strong>Loss function</strong>: Measures how well the model performs</li>
-<li><strong>Optimizer</strong>: Updates the model weights to minimize loss</li>
-<li><strong>Backpropagation</strong>: Automatic gradient computation using <code>.backward()</code></li>
+<li><input checked="" disabled="" type="checkbox"> Completed task</li>
+<li><input disabled="" type="checkbox"> Incomplete task</li>
+<li><input checked="" disabled="" type="checkbox"> Another completed task</li>
+<li><input disabled="" type="checkbox"> Nested task list
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Subtask 1 (done)</li>
+<li><input disabled="" type="checkbox"> Subtask 2 (not done)</li>
+<li><input checked="" disabled="" type="checkbox"> Subtask 3 (done)</li>
 </ul>
-<h2 id="conclusion">Conclusion</h2>
-<p>PyTorch makes it easy to build and train neural networks with its intuitive API and automatic differentiation capabilities. This simple example demonstrates the core workflow that can be extended to more complex architectures.</p>
-<p>&hellip;..</p>
+</li>
+</ul>
+<h3 id="definition-list">Definition List</h3>
+<p>Definition lists provide a structured way to define terms and their meanings, similar to a glossary.</p>
+<dl>
+<dt>Term 1</dt>
+<dd>This is the definition for term 1.</dd>
+<dt>Term 2</dt>
+<dd>This is the definition for term 2.</dd>
+<dd>Terms can have multiple definitions.</dd>
+</dl>
+<h2 id="key-takeaways">Key Takeaways</h2>
+<p>Understanding layers is essential for designing effective neural networks. Each layer type serves a specific purpose:</p>
+<ul>
+<li><strong>Linear layers</strong> for general transformations</li>
+<li><strong>Convolutional layers</strong> for spatial data</li>
+<li><strong>Recurrent layers</strong> for sequential data</li>
+<li><strong>Activation layers</strong> for non-linearity</li>
+<li><strong>Normalization layers</strong> for training stability</li>
+<li><strong>Pooling layers</strong> for dimensionality reduction</li>
+<li><strong>Dropout layers</strong> for regularization</li>
+</ul>
+<p>By combining these layers strategically, you can build powerful neural networks for virtually any task.</p>
 
   </article>
 
@@ -3069,9 +3778,9 @@
           <p>
             <strong>Link:</strong>
             <a
-              href="http://localhost:1313/posts/how-to-build-and-train-a-simple-neural-network-using-pytorch/"
+              href="http://localhost:1313/posts/layers-in-neural-network/"
               class="text-primary hover:text-primary/80 transition-colors break-all hyphens-auto duration-200">
-              http://localhost:1313/posts/how-to-build-and-train-a-simple-neural-network-using-pytorch/
+              http://localhost:1313/posts/layers-in-neural-network/
             </a>
           </p>
 
@@ -3116,64 +3825,64 @@
       
       <div class="nav-item">
         
-          <div
-            class="bg-muted/30 border-border/50 flex min-h-[140px] flex-col justify-center rounded-xl border p-6">
-            <div class="mb-3 flex items-center gap-3">
-              
+          <a
+            href="/posts/how-to-build-and-train-a-simple-neural-network-using-pytorch/"
+            class="group bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 flex min-h-[140px] flex-col justify-between rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+            <div>
+              <div class="mb-3 flex items-center gap-3">
+                
   <svg class="h-4 w-4"
     fill="none"
     stroke="currentColor"
     viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
 </svg>
-              <span class="text-muted-foreground/50 text-sm font-medium">
-                No previous post
-              </span>
-            </div>
-            <p class="text-muted-foreground/50 text-sm">
-              This is the earliest post
-            </p>
-          </div>
-        
-      </div>
-
-      
-      <div class="nav-item">
-        
-          <a
-            href="/posts/semantic-searching/"
-            class="group bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 flex min-h-[140px] flex-col justify-between rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
-            <div>
-              <div class="mb-3 flex items-center justify-end gap-3">
                 <span class="text-muted-foreground text-sm font-medium">
-                  Next
+                  Previous
                 </span>
-                
-  <svg class="h-4 w-4"
-    fill="none"
-    stroke="currentColor"
-    viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-</svg>
               </div>
 
               <h3
-                class="text-foreground group-hover:text-primary mb-3 line-clamp-2 text-right text-lg leading-tight font-semibold transition-colors duration-200">
-                Semantic Searching
+                class="text-foreground group-hover:text-primary mb-3 line-clamp-2 text-lg leading-tight font-semibold transition-colors duration-200">
+                How to build and train a simple Neural Network using pytorch
               </h3>
             </div>
 
             <div
-              class="text-muted-foreground mt-auto flex items-center justify-end gap-2 text-xs">
-              <time datetime="2025-11-21">
-                Nov 21
-              </time>
+              class="text-muted-foreground mt-auto flex items-center gap-2 text-xs">
               
   <svg class="h-3 w-3"
     fill="none"
     stroke="currentColor"
     viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
 </svg>
+              <time datetime="2025-11-16">
+                Nov 16
+              </time>
             </div>
           </a>
+        
+      </div>
+
+      
+      <div class="nav-item">
+        
+          <div
+            class="bg-muted/30 border-border/50 flex min-h-[140px] flex-col justify-center rounded-xl border p-6">
+            <div class="mb-3 flex items-center justify-end gap-3">
+              <span class="text-muted-foreground/50 text-sm font-medium">
+                No next post
+              </span>
+              
+  <svg class="h-4 w-4"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+</svg>
+            </div>
+            <p class="text-muted-foreground/50 text-right text-sm">
+              This is the latest post
+            </p>
+          </div>
         
       </div>
     </div>
@@ -3190,6 +3899,36 @@
 
 
 
+
+  <section class="related-posts mb-12">
+    
+    <div class="mb-6 flex items-center gap-3">
+      
+  <svg class="h-5 w-5"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+</svg>
+      <h2 class="text-foreground text-2xl font-bold">
+        Related Posts
+      </h2>
+    </div>
+
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full">
+      
+        <article class="group">
+          <a href="/posts/how-to-build-and-train-a-simple-neural-network-using-pytorch/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 flex items-center rounded-xl border p-5 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none min-h-[120px]">
+              <h3 class="text-foreground group-hover:text-primary text-lg font-semibold leading-snug line-clamp-3 w-full">
+                How to build and train a simple Neural Network using pytorch
+              </h3>
+            </div>
+          </a>
+        </article>
+      
+    </div>
+  </section>
 
 
 
@@ -3597,18 +4336,26 @@
           <div id="toc-content">
             <nav id="TableOfContents">
   <ul>
-    <li><a href="#installation">Installation</a></li>
-    <li><a href="#building-a-simple-neural-network">Building a Simple Neural Network</a>
+    <li><a href="#common-types-of-layers-in-pytorch">Common Types of Layers in PyTorch</a>
       <ul>
-        <li><a href="#step-1-import-required-libraries">Step 1: Import Required Libraries</a></li>
-        <li><a href="#step-2-define-the-network-architecture">Step 2: Define the Network Architecture</a></li>
-        <li><a href="#step-3-initialize-the-model">Step 3: Initialize the Model</a></li>
-        <li><a href="#step-4-define-loss-function-and-optimizer">Step 4: Define Loss Function and Optimizer</a></li>
-        <li><a href="#step-5-training-loop">Step 5: Training Loop</a></li>
+        <li><a href="#1-linear-layers-fully-connected">1. Linear Layers (Fully Connected)</a></li>
+        <li><a href="#2-convolutional-layers">2. Convolutional Layers</a></li>
+        <li><a href="#3-recurrent-layers">3. Recurrent Layers</a></li>
+        <li><a href="#4-activation-layers">4. Activation Layers</a></li>
+        <li><a href="#5-normalization-layers">5. Normalization Layers</a></li>
+        <li><a href="#6-pooling-layers">6. Pooling Layers</a></li>
+        <li><a href="#7-dropout-layers">7. Dropout Layers</a></li>
       </ul>
     </li>
-    <li><a href="#key-concepts">Key Concepts</a></li>
-    <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#building-a-multi-layer-network">Building a Multi-Layer Network</a></li>
+    <li><a href="#layer-selection-guide">Layer Selection Guide</a>
+      <ul>
+        <li><a href="#ordered-list">Ordered List</a></li>
+        <li><a href="#task-list-checkbox">Task List (Checkbox)</a></li>
+        <li><a href="#definition-list">Definition List</a></li>
+      </ul>
+    </li>
+    <li><a href="#key-takeaways">Key Takeaways</a></li>
   </ul>
 </nav>
           </div>

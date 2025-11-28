@@ -2,10 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/how-to-build-and-train-a-simple-neural-network-using-pytorch/</loc>
-    <lastmod>2025-11-16T02:15:00-05:00</lastmod>
+    <loc>http://localhost:1313/categories/ai/machine-learning/</loc>
+    <lastmod>2025-11-21T02:15:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-11-21T02:15:00-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/deep-learning/</loc>
+    <lastmod>2025-11-21T02:15:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/layers-in-neural-network/</loc>
+    <lastmod>2025-11-21T02:15:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/neural-networks/</loc>
+    <lastmod>2025-11-21T02:15:00-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-11-21T02:15:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/pytorch/</loc>
+    <lastmod>2025-11-21T02:15:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-11-21T02:15:00-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh-cn/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/posts/how-to-build-and-train-a-simple-neural-network-using-pytorch/</loc>
     <lastmod>2025-11-16T02:15:00-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
@@ -36,30 +77,6 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="http://localhost:1313/archives/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/categories/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh-cn/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/tags/"
                 />
   </url><url>
     <loc>http://localhost:1313/archives/_index.ja/</loc>
